@@ -1,0 +1,695 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.body{
+    /* Layout Properties */
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 3006px;
+    /* UI Properties */
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.part1{
+    position: absolute;
+    /* Layout Properties */
+    top: 40px;
+    left: 360px;
+    width: 274px;
+    height: 190px;
+    /* UI Properties */
+    text-align: left;
+    font: normal normal normal 80px/95px SF Pro Text;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+
+.line1{
+    /* Layout Properties */
+    position: absolute;
+    top: 254px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    /* UI Properties */
+    border: 2px solid #000000;
+    opacity: 1;
+}
+.picture{
+    position: absolute;
+    /* Layout Properties */
+    top: 302px;
+    left: 360px;
+    width: 324px;
+    height: 324px;
+    /* UI Properties */
+    background: transparent url('images/people.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text1{
+    position: absolute;
+    top: 674px;
+    left: 360px;
+    width: 128px;
+    height: 48px;
+    text-align: left;
+    font-family: 'PingFang TC Medium';
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+
+}
+.text2{
+    position: absolute;
+    top: 680px;
+    left: 504px;
+    width: 101px;
+    height: 36px;
+    text-align: left;
+    font-family: 'SF Pro Text';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+}
+.line2{
+    position: absolute;
+    top: 730px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.text3{
+    position: absolute;
+    top: 746px;
+    left: 360px;
+    width: 439px;
+    height: 108px;
+    text-align: left;
+    font-family: 'PingFang TC Light';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text4{
+    position: absolute;
+    top: 878px;
+    left: 360px;
+    width: 696px;
+    height: 108px;
+    text-align: left;
+    font-family: 'PingFang TC Light';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text5{
+    position: absolute;
+    /* Layout Properties */
+    top: 1050px;
+    left: 360px;
+    width: 64px;
+    height: 48px;
+    /* UI Properties */
+    text-align: left;
+    font-family: 'PingFang TC Medium';
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text6{
+    position: absolute;
+    top: 1056px;
+    left: 440px;
+    width: 143px;
+    height: 36px;
+    text-align: left;
+    font-family: 'SF Pro Text';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+}
+.line3{
+    position: absolute;
+    /* Layout Properties */
+    top: 1106px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    /* UI Properties */
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.text7{
+    position: absolute;
+    /* Layout Properties */
+    top: 1122px;
+    left: 360px;
+    width: 603px;
+    height: 36px;
+    /* UI Properties */
+    text-align: left;
+    font-family: 'PingFang TC Light';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text8{
+    position: absolute;
+    /* Layout Properties */
+    top: 1174px;
+    left: 360px;
+    width: 422px;
+    height: 36px;
+    /* UI Properties */
+    text-align: left;
+    font-family: 'PingFang TC Light';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.bac{
+    position: absolute;
+    /* Layout Properties */
+    top: 1274px;
+    left: 0px;
+    width: 1920px;
+    height: 460px;
+    /* UI Properties */
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text9{
+    position: absolute;
+    top: 1298px;
+    left: 882px;
+    width: 64px;
+    height: 48px;
+    text-align: left;
+    font-family: 'PingFang TC Medium';
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text10{
+    position: absolute;
+    top: 1304px;
+    left: 962px;
+    width: 84px;
+    height: 36px;
+    text-align: left;
+    font-family: 'SF Pro Text';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.line4{
+    position: absolute;
+    top: 1354px;
+    left: 462px;
+    width: 996px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+.line5{
+    position: absolute;
+    top: 1394px;
+    left: 852px;
+    width: 0px;
+    height: 300px;
+    border: 1px solid #96A9C4;
+    opacity: 1;
+}
+.text11{
+    position: absolute;
+    top: 1394px;
+    left: 876px;
+    width: 200px;
+    height: 36px;
+    text-align: center;
+    font-family: 'PingFang TC Light';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text12{
+    position: absolute;
+    top: 1438px;
+    left: 875px;
+    width: 186px;
+    height: 36px;
+    text-align: center;
+    font-family: 'PingFang TC Light';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text13{
+    position: absolute;
+    /* Layout Properties */
+    top: 1482px;
+    left: 875px;
+    width: 114px;
+    height: 36px;
+    /* UI Properties */
+    text-align: center;
+    font-family: 'PingFang TC Light';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text14{
+    position: absolute;
+    /* Layout Properties */
+    top: 1526px;
+    left: 875px;
+    width: 176px;
+    height: 36px;
+    /* UI Properties */
+    text-align: center;
+    font-family: 'PingFang TC Light';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text15{
+    position: absolute;
+    top: 1570px;
+    left: 876px;
+    width: 50px;
+    height: 36px;
+    text-align: center;
+    font-family: 'PingFang TC Light';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text16{
+    position: absolute;
+    top: 1614px;
+    left: 875px;
+    width: 180px;
+    height: 36px;
+    text-align: center;
+    font-family: 'PingFang TC Light';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text_lan{
+    position: absolute;
+    top: 1658px;
+    left: 876px;
+    width: 192px;
+    height: 36px;
+    text-align: center;
+    font-family: 'PingFang TC Light';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 300;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text17{
+    position: absolute;
+    top: 1798px;
+    left: 360px;
+    width: 128px;
+    height: 48px;
+    text-align: left;
+    font-family: 'PingFang TC Medium';
+    font-size: 32px;
+    line-height: 48px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text18{
+    position: absolute;
+    top: 1804px;
+    left: 504px;
+    width: 233px;
+    height: 36px;
+    text-align: left;
+    font-family: 'SF Pro Text';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 600;
+    letter-spacing: 0px;
+    color: #A00404;
+    opacity: 1;
+}
+.line6{
+    position: absolute;
+    top: 1854px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    border: 1px solid #000000;
+    opacity: 1;
+}
+.line7{
+    position: absolute;
+    /* Layout Properties */
+    top: 1870px;
+    left: 384px;
+    width: 0px;
+    height: 654px;
+    /* UI Properties */
+    border: 1px solid #96A9C4;
+    opacity: 1;
+}
+.text19{
+    position: absolute;
+    top: 1870px;
+    left: 408px;
+    width: 509px;
+    height: 36px;
+    text-align: left;
+    font-family: 'PingFang TC Medium';
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 500;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.picture2{
+    position: absolute;
+    top: 1906px;
+    left: 408px;
+    width: 100px;
+    height: 100px;
+    background: transparent url('images/logo.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text20{
+    position: absolute;
+    top: 2006px;
+    left: 408px;
+    width: 642px;
+    height: 150px;
+    text-align: left;
+    font: normal normal 300 20px/30px PingFang TC Light;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text21{
+    position: absolute;
+    top: 2180px;
+    left: 408px;
+    width: 377px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 500 24px/36px PingFang TC Medium;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text22{
+    position: absolute;
+    top: 2240px;
+    left: 408px;
+    width: 370px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 500 24px/36px PingFang TC Medium;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text23{
+    position: absolute;
+    top: 2300px;
+    left: 408px;
+    width: 467px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 500 24px/36px PingFang TC Medium;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.text24{
+    position: absolute;
+    top: 2360px;
+    left: 408px;
+    width: 423px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 500 24px/36px PingFang TC Medium;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.picture3{
+    position: absolute;
+    top: 2396px;
+    left: 408px;
+    width: 100px;
+    height: 100px;
+    background: transparent url('images/simtree.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text25{
+    position: absolute;
+    top: 2496px;
+    left: 408px;
+    width: 400px;
+    height: 30px;
+    text-align: left;
+    font: normal normal 300 20px/30px PingFang TC Light;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.bac2{
+    position: absolute;
+    top: 2606px;
+    left: 0px;
+    width: 1920px;
+    height: 400px;
+    background: #415165 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.text26{
+    position: absolute;
+    top: 2630px;
+    left: 782px;
+    width: 128px;
+    height: 48px;
+    text-align: left;
+    font: normal normal 500 32px/48px PingFang TC Medium;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text27{
+    position: absolute;
+    top: 2636px;
+    left: 926px;
+    width: 228px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 500 24px/36px SF Pro Text Light;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.line8{
+    position: absolute;
+    top: 2686px;
+    left: 360px;
+    width: 1200px;
+    height: 0px;
+    border: 1px solid #FFFFFF;
+    opacity: 1;
+}
+.text28{
+    position: absolute;
+    top: 2710px;
+    left: 810px;
+    width: 311px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 300 24px/36px SF Pro Text Light;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text29{
+    position: absolute;
+    top: 2762px;
+    left: 847px;
+    width: 236px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 300 24px/36px SF Pro Text Light;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.text30{
+    position: absolute;
+    top: 2814px;
+    left: 857px;
+    width: 207px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 300 24px/36px SF Pro Text Light;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    }
+.text31{
+    position: absolute;
+    top: 2866px;
+    left: 696px;
+    width: 530px;
+    height: 36px;
+    text-align: left;
+    font: normal normal 300 24px/36px PingFang TC Light;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.picture4{
+    position: absolute;
+    /* Layout Properties */
+    top: 2918px;
+    left: 864px;
+    width: 48px;
+    height: 48px;
+    /* UI Properties */
+    background: transparent url('images/facebook.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.picture5{
+    position: absolute;
+    top: 2918px;
+    left: 936px;
+    width: 48px;
+    height: 48px;
+    background: transparent url('images/instagram-alt.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+.picture6{
+    position: absolute;
+    top: 2918px;
+    left: 1008px;
+    width: 48px;
+    height: 48px;
+    background: transparent url('images/line.png') 0% 0% no-repeat padding-box;
+    opacity: 1;
+}
+
+@font-face {
+    font-family: 'SF Pro Text';
+    src: url('../font/SF-Pro-Text-Regular.woff') format("woff");
+}
+@font-face {
+    font-family: 'SF Pro Text Light';
+    src: url('../font/SF-Pro-Text-Light.woff') format("woff");
+}
+@font-face {
+    font-family: 'PingFang TC Medium';
+    src: url('../font/PingFangTC-Medium.woff') format("woff");
+}
+@font-face {
+    font-family: 'PingFang TC Light';
+    src: url('../font/PingFangTC-Light.woff') format("woff");
+}
